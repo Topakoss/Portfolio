@@ -1,0 +1,84 @@
+@media all and (max-width: 500px){
+   .main-title{
+        font-size:20px;
+    }
+    .nav-link{
+        font-size:15px;
+    }
+}
+
+
+.main-title{
+    font-size: 35px;
+    font-weight: 300;
+    color: black;
+    padding-bottom: 2%;
+    padding-left: 1%;
+}
+
+/*Navbar Start*/
+.nav-link{
+    display: block;
+    color: black;
+    padding: 2% 4%;
+    text-decoration: none;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 19%;
+    background-color: whitesmoke;
+    height: 60%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow:hidden; /* Enable scrolling if the sidenav has too much content */
+}
+
+ul a:hover{
+    background-color: #555;
+    color: white;
+}
+
+/*Navbar Ends*/
+body{
+    background:fixed whitesmoke;
+    font-family: sans-serif;
+    color: black;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.title{
+    font-size: 35px;
+    font-weight: 300;
+}
+
+main{
+    padding-left: 20%;
+}
+p{
+    font-size: 25px;
+}
+
+code{
+    font-size: 20px;
+}
+
+div{
+    display: inline-block
+}
+
+.box{
+    background-color:#5555555b ;
+    text-align: center;
+    font-size: 25px;
+}
+
+ol li{
+    padding-top: 20px;
+    font-size: 25px;
+}

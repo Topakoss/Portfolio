@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Documentation</title>
+    <script src="index.js"></script>
+
+    </head> 
+    <body>
+    <nav id="navbar">
+        <ul class="navbar">
+        <li><header><div class="main-title">JS Crash Course</div></header></li>
+        <li><a href="#What_is_JavaScript?" class="nav-link">What is JavaScript?</a></li>
+        <li><a href="#A_Hello_world!_example" class="nav-link">A Hello world! example</a></li>
+        <li><a href="#Language_basics_crash_course" class="nav-link">Language basics crash course</a></li>
+        <li><a href="#Supercharging_our_example_website" class="nav-link">Supercharging our example website</a></li>
+        <li><a href="#Conclusion" class="nav-link">Conclusion</a>
+        </ul>
+    </nav>
+    
+    <main id="main-doc">
+        <section class="main-section" id="What_is_JavaScript?">
+            <header class="title">What is JavaScript?</header>
+                <p>JavaScript is a powerful programming language that can add interactivity to a website. It was<br>
+                     invented by Brendan Eich.</p>
+
+                <p>JavaScript is versatile and beginner-friendly. With more experience, you'll be able to create games,<br>
+                    animated 2D and 3D graphics, comprehensive database-driven apps, and much more!</p> 
+                    
+                <p>JavaScript itself is relatively compact, yet very flexible. Developers have written a variety of tools on<br>
+                    top of the core JavaScript language, unlocking a vast amount of functionality with minimum effort.<br>
+                    These include:</p>
+        </section>
+        
+        <section class="main-section" id="A_Hello_world!_example">
+            <header class="title">A Hello world! example</header>
+            <p>JavaScript is one of the most popular modern web technologies! As your JavaScript skills grow, your<br>
+             websites will enter a new dimension of power and creativity.</p>
+            <p>However, getting comfortable with JavaScript is more challenging than getting comfortable with<br>
+             HTML and CSS. You may have to start small, and progress gradually. To<br>
+             begin, let's examine how to add JavaScript to your page for creating a Hello world! example. (Hello world! is the standard for<br>
+             introductory programming examples.)</p>
+            <ol>
+                <li>Go to your test site and create a new folder named scripts. Within the scripts folder, create a<br>
+                     new text document called <div class="box">main.js</div>, and save it.</li>
+                <li>In your <div>index.html</div> file, enter this code on a new line, just before the closing <div class="box">&lt;/body&gt;</div> tag<br>
+                    <code class="box">&lt;script src="scripts/main.js"&gt;&lt;/script&gt;</code>
+                </li>
+                <li>This is doing the same job as the &lt;link&gt; element for CSS. It applies the JavaScript to the page,<br>
+                     so it can have an effect on the HTML (along with the CSS, and anything else on the page).</li>
+                <li>Add this code to the <div class="box">main.js</div> file:
+                    <code class="box">const myHeading = document.querySelector("h1");
+                        myHeading.textContent = "Hello world!";</code>
+                </li>
+                <li>Make sure the HTML and JavaScript files are saved. Then load <div class="box">index.html</div> in your browser. You<br>
+                    should see something like this:</li>
+                </ol>
+                <img src="images/hello-world.png" alt="a image with Hello world text">
+        
+        </section>
+        <section class="main-section" id="Language_basics_crash_course">
+            <header class="title">Language basics crash course</header>
+            <p>To give you a better understanding of how JavaScript works, let's explain some of the core features<br>
+             of the language. It's worth noting that these features are common to all programming languages. If<br>
+             you master these fundamentals, you have a head start on coding in other languages too!</p>
+             <p>Variables are containers that store values. You start by declaring a variable with the let keyword,<br>
+             followed by the name you give to the variable:</p>
+             <code class="box">let myVariable;</code>
+             <p>A semicolon at the end of a line indicates where a statement ends. It is only required when you need<br>
+             to separate statements on a single line. However, some people believe it's good practice to have<br>
+            semicolons at the end of each statement. There are other rules for when you should and shouldn't use semicolons.<br>
+             For more details, see Your Guide to Semicolons in JavaScript</p>
+             <p>You can name a variable nearly anything, but there are some restrictions. (See this section about<br>
+                naming rules.) If you are unsure, you can check your variable name to see if it's valid.</p>
+                <p>JavaScript is case sensitive. This means myVariable is not the same as myvariable. If you have<br>
+                    problems in your code, check the case!</p>
+                <p>After declaring a variable, you can give it a value:</p>
+                <code class="box">myVariable = "Bob";</code>
+                <p>Also, you can do both these operations on the same line:</p>
+                <code class="box">let myVariable = "Bob";</code>
+                <p>You retrieve the value by calling the variable name:</p>
+                <code class="box">myVariable;</code>
+                <p>After assigning a value to a variable, you can change it later in the code:</p>
+                <code class="box">let myVariable = "Bob";myVariable = "Steve";</code>
+        </section>
+        <section class="main-section" id="Supercharging_our_example_website">
+            <header class="title">Supercharging our example website</header>
+            <p>With this review of JavaScript basics completed (above), let's add some new features to our example<br>
+             site.</p>
+            <p>Before going any further, delete the current contents of your main.js file — the bit you added earlier<br> 
+            during the "Hello world!" example — and save the empty file. If you don't, the existing code will clash<br> 
+            with the new code you are about to add.</p>
+        </section>
+        <section class="main-section" id="Conclusion">
+            <header class="title">Conclusion</header>
+            <p>If you have followed all the instructions in this article, you should end up with a page that looks<br>
+                 something like the image below. You can also view <a href="">our version</a></p>
+        </section>
+    </main>
+</body>
+
+
+</html>
